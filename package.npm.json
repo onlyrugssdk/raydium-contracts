@@ -1,0 +1,6 @@
+{
+  "name": "@onlyrugs-sdk/raydium-contracts",
+  "publishConfig": {
+    "access": "public"
+  }
+}
