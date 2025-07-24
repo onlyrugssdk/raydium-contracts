@@ -110,7 +110,7 @@ jobs:
           if [[ "$BRANCH" == "dev" ]]; then
             npm publish --tag dev
           else
-            npm publish
+            npm publish --access public
           fi
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
