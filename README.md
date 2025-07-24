@@ -1,6 +1,7 @@
 # raydium-cp-swap
 
 A revamped constant product AMM program optimized for straightforward pool deployment along with additional features and integrations:
+
 - No Openbook market ID is required for pool creation
 - Token22 is supported
 - Built-in price oracle
@@ -19,7 +20,7 @@ The program assets are in-scope for Raydium’s [Immunefi bug bounty program](ht
    rustup default 1.81.0
    ```
 
-2. Install `Solana `
+2. Install `Solana `s
 
    ```shell
    sh -c "$(curl -sSfL https://release.anza.xyz/v2.1.0/install)"
@@ -30,7 +31,7 @@ The program assets are in-scope for Raydium’s [Immunefi bug bounty program](ht
 3. install `Anchor`
 
    ```shell
-   # Installing using Anchor version manager (avm) 
+   # Installing using Anchor version manager (avm)
    cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
    # Install anchor
    avm install 0.31.0
